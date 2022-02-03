@@ -1,0 +1,53 @@
+li{
+    list-style: none;
+    margin-right: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 8px;
+    font-size: 1.3rem;
+}
+.welcomeImage{
+    width: 98vw;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.navbar>nav,ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Container{
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.Container>div{
+    padding: .5rem;
+}
+h1{
+    margin-left: 1rem;
+}
+a:link, a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(120, 178, 218);
+}
+a{
+    text-decoration: none;
+}
+
+/* .newContainer1,.newContainer2,.newContainer3{
+    display: flex;
+}
+
+.newContainer1>div,.newContainer2>div,.newContainer3>div{
+    width: 50vw;
+    height: 250px;
+} */
